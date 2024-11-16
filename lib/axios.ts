@@ -24,6 +24,7 @@ export const axiosCall = async ({
     url,
     data: data,
     withCredentials: true,
+    withXSRFToken: true,
     headers: {
       Accept: "application/json",
       "Content-Type": "multipart/form-data",

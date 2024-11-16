@@ -6,6 +6,7 @@
   ],
   "plugins": ["check-file"],
   "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
     "react/no-unescaped-entities": "off",
     "check-file/filename-naming-convention": [
       "error",

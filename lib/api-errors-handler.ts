@@ -32,7 +32,7 @@ export default function getServerErrorsArray(
       localStorage.removeItem("user");
       window.location.href = "/auth/login?error=unauthorized";
     }
-  } else {
-    return ["An error occurred. Please try again later."];
   }
+
+  return ["An error occurred. Please try again later."];
 }
