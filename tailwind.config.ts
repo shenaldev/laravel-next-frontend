@@ -9,6 +9,12 @@ export default {
     "./features/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+      screens: {
+        "2xl": "1440px",
+      },
+    },
     extend: {
       colors: {
         background: "hsl(var(--background))",
