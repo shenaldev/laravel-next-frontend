@@ -10,3 +10,8 @@ export type UserResponse = {
   };
   token: string;
 };
+
+export type EmailVerificationSuccess = {
+  vaild: boolean;
+  message: string;
+};
