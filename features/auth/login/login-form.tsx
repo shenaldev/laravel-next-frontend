@@ -88,7 +88,7 @@ export default function LoginForm() {
         />
         <div className="flex items-center justify-end">
           <Link
-            href="/forgot-password"
+            href="/auth/forgot-password"
             className="text-sm font-medium text-primary hover:underline"
           >
             Forgot password?
